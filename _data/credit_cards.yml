@@ -1,0 +1,29 @@
+- id: cmb
+  name: 招商银行信用卡
+  statement_date: 5
+  payment_date: 23
+  interest_free_period: 18
+
+- id: spd
+  name: 浦发银行信用卡
+  statement_date: 10
+  payment_date:
+  interest_free_period: 20
+
+- id: citic
+  name: 中信银行信用卡
+  statement_date: 15
+  payment_date: 3
+  interest_free_period:
+
+- id: cgb
+  name: 广发银行信用卡
+  statement_date: 19
+  payment_date: 8
+  interest_free_period:
+
+- id: bankcomm
+  name: 交通银行信用卡
+  statement_date: 24
+  payment_date: 18
+  interest_free_period:

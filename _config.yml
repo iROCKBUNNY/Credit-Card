@@ -1,0 +1,36 @@
+google_analytics_id: UA-33449675-12
+
+repository: https://github.com/iROCKBUNNY/Credit-Card
+
+timezone: Asia/Shanghai
+
+title: Credit Card
+description: Credit Card Statement Date and Payment Date Management
+keywords: Credit Card, Statement Date, Payment Date, iROCKBUNNY
+url: https://card.irockbunny.com
+
+author: iROCKBUNNY
+author_url: https://irockbunny.com
+organization: TEELAB
+organization_url: https://teelab.net
+
+contact: contact[at]irockbunny[dot]com
+github: https://github.com/iROCKBUNNY
+
+icon: credit card
+
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
+
+exclude:
+- .gitignore
+- .travis.yml
+- LICENSE
+- README.md
+- CNAME
+- archive
+- Gemfile
+- Gemfile.lock
+- script
+- vendor

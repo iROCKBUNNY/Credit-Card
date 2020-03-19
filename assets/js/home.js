@@ -66,7 +66,7 @@ for (var i in creditCards) {
         };
         maxInterestFreePeriod = Math.floor((currentPaymentDate - today) / 86400000);
     };
-    $(`#${creditCard.id}-interest-free-period`).html(`最长免息期：<b>${maxInterestFreePeriod}</b> 天`);
+    $(`#${creditCard.id}-interest-free-period`).text(maxInterestFreePeriod);
     if (maxInterestFreePeriod > maxInterestFreePeriodCard.max_interest_free_period) {
         maxInterestFreePeriodCard.id = creditCard.id;
         maxInterestFreePeriodCard.max_interest_free_period = maxInterestFreePeriod;

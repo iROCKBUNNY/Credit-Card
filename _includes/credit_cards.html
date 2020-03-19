@@ -8,10 +8,10 @@
                     </div>
                     <div class="content">
                         <div>账单日：每月 <strong>{{ credit_card.statement_date }}</strong> 日</div>
-                        <div>{%- if credit_card.payment_date -%}还款日：{%- if credit_card.payment_date > credit_card.statement_date -%}当{%- else -%}次{%- endif -%}月 <strong>{{ credit_card.payment_date }}</strong> 日{%- else -%}免息期：<strong>{{ credit_card.interest_free_period }}</strong> 天{%- endif -%}</div>
+                        <div>还款日：{% if credit_card.interest_free_period %}<strong>{{ credit_card.interest_free_period }}</strong> 天后{% if credit_card.payment_date %}（{% if credit_card.payment_date > credit_card.statement_date %}当{% else %}次{% endif %}月 <strong>{{ credit_card.payment_date }}</strong> 日）{% endif %}{% else %}{% if credit_card.payment_date > credit_card.statement_date %}当{% else %}次{% endif %}月 <strong>{{ credit_card.payment_date }}</strong> 日{% endif %}</div>
                     </div>
                     <div class="extra content">
-                        <div id="{{ credit_card.id }}-interest-free-period"></div>
+                        <div>免息期：<b id="{{ credit_card.id }}-interest-free-period">0</b> 天</div>
                     </div>
                 </div>
             {%- endfor -%}

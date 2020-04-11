@@ -38,4 +38,4 @@
   color: blue
   statement_date: 5
   payment_date: 15
-  interest_free_period:
+  interest_free_period: 10

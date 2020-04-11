@@ -32,3 +32,10 @@
   statement_date: 24
   payment_date: 18
   interest_free_period:
+
+- id: ant-credit-pay
+  name: 蚂蚁花呗
+  color: blue
+  statement_date: 5
+  payment_date: 15
+  interest_free_period:

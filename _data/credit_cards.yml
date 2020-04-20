@@ -27,8 +27,8 @@
   color: red
   icon: credit card
   statement_date: 15
-  payment_date: 3
-  interest_free_period:
+  payment_date:
+  interest_free_period: 19
 
 - id: cgb
   name: 广发银行信用卡

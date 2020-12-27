@@ -45,3 +45,11 @@
   statement_date: 24
   payment_date: 18
   interest_free_period:
+
+- id: icbc
+  name: 工商银行牡丹交通卡
+  color: red
+  icon: credit card
+  statement_date: 12
+  payment_date: 5
+  interest_free_period:

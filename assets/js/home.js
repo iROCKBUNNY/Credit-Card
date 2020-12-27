@@ -7,7 +7,8 @@ const creditCards = [
         "id": "{{ credit_card.id }}",
         "statement_date": {{ credit_card.statement_date }},
         "payment_date": {% if credit_card.payment_date %}{{ credit_card.payment_date }}{% else %}null{% endif %},
-        "interest_free_period": {% if credit_card.interest_free_period %}{{ credit_card.interest_free_period }}{% else %}null{% endif %}
+        "interest_free_period": {% if credit_card.interest_free_period %}{{ credit_card.interest_free_period }}{% else %}null{% endif %},
+        "disabled": {% if credit_card.disabled %}true{% else %}false{% endif %}
     }{% unless forloop.last %},
     {% endunless %}{% endfor %}
 ];
@@ -67,7 +68,7 @@ for (var i in creditCards) {
         maxInterestFreePeriod = Math.floor((currentPaymentDate - today) / 86400000);
     };
     $(`#${creditCard.id}-interest-free-period`).text(maxInterestFreePeriod);
-    if (maxInterestFreePeriod > maxInterestFreePeriodCard.max_interest_free_period) {
+    if (!creditCard.disabled && maxInterestFreePeriod > maxInterestFreePeriodCard.max_interest_free_period) {
         maxInterestFreePeriodCard.id = creditCard.id;
         maxInterestFreePeriodCard.max_interest_free_period = maxInterestFreePeriod;
     };

@@ -2,9 +2,9 @@
     <div class="ui container">
         <div class="ui three stackable cards">
             {%- for credit_card in site.data.credit_cards -%}
-                <div class="ui {{ credit_card.color }} card">
+                <div class="ui {% if credit_card.disabled %}grey{% else %}{{ credit_card.color }}{% endif %} card">
                     <div id="{{ credit_card.id }}-header" class="content">
-                        <div class="header"><i class="{{ credit_card.color }} {{ credit_card.icon }} icon"></i>{{ credit_card.name }}</div>
+                        <div class="header"><i class="{% if credit_card.disabled %}grey{% else %}{{ credit_card.color }}{% endif %} {{ credit_card.icon }} icon"></i>{{ credit_card.name }}</div>
                     </div>
                     <div class="content">
                         <div>账单日：每月 <strong>{{ credit_card.statement_date }}</strong> 日</div>

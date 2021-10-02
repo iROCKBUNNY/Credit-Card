@@ -73,4 +73,4 @@ for (var i in creditCards) {
         maxInterestFreePeriodCard.max_interest_free_period = maxInterestFreePeriod;
     };
 };
-$(`#${maxInterestFreePeriodCard.id}-header`).append('<div class="ui yellow top right attached label"><i class="check icon"></i>最长免息期</div>');
+$(`#${maxInterestFreePeriodCard.id}-header`).append('<div class="ui mini yellow top right attached label"><i class="check icon"></i>最长免息期</div>');

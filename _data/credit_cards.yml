@@ -60,3 +60,12 @@
   payment_date: 18
   interest_free_period:
   disabled: false
+
+- id: jdbt
+  name: 京东白条
+  color: red
+  icon: credit card
+  statement_date: 26
+  payment_date:
+  interest_free_period: 9
+  disabled: false

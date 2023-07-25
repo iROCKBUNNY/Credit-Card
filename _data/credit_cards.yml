@@ -3,7 +3,7 @@
   color: red
   icon: credit card
   statement_date: 2
-  payment_date:
+  payment_date: 21
   interest_free_period: 19
   disabled: false
 

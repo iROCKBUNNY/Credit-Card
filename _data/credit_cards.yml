@@ -7,33 +7,6 @@
   interest_free_period: 10
   disabled: false
 
-- id: cmb
-  name: 招商银行信用卡
-  color: red
-  icon: credit card
-  statement_date: 12
-  payment_date: 1
-  interest_free_period:
-  disabled: false
-
-- id: spd
-  name: 浦发银行信用卡
-  color: blue
-  icon: credit card
-  statement_date: 10
-  payment_date:
-  interest_free_period: 20
-  disabled: false
-
-- id: icbc
-  name: 工商银行牡丹交通卡
-  color: red
-  icon: credit card
-  statement_date: 12
-  payment_date: 5
-  interest_free_period:
-  disabled: true
-
 - id: citic
   name: 中信银行信用卡
   color: red
@@ -52,6 +25,24 @@
   interest_free_period:
   disabled: false
 
+- id: cmb
+  name: 招商银行信用卡
+  color: red
+  icon: credit card
+  statement_date: 12
+  payment_date: 1
+  interest_free_period:
+  disabled: false
+
+- id: icbc
+  name: 工商银行牡丹交通卡
+  color: red
+  icon: credit card
+  statement_date: 12
+  payment_date: 5
+  interest_free_period:
+  disabled: true
+
 - id: bankcomm
   name: 交通银行信用卡
   color: blue
@@ -59,6 +50,15 @@
   statement_date: 17
   payment_date: 11
   interest_free_period:
+  disabled: false
+
+- id: spd
+  name: 浦发银行信用卡
+  color: blue
+  icon: credit card
+  statement_date: 10
+  payment_date:
+  interest_free_period: 20
   disabled: false
 
 - id: jdbt

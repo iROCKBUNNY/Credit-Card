@@ -11,9 +11,9 @@
   name: 招商银行信用卡
   color: red
   icon: credit card
-  statement_date: 5
-  payment_date: 23
-  interest_free_period: 18
+  statement_date: 12
+  payment_date: 1
+  interest_free_period:
   disabled: false
 
 - id: spd
@@ -38,7 +38,7 @@
   name: 中信银行信用卡
   color: red
   icon: credit card
-  statement_date: 15
+  statement_date: 2
   payment_date:
   interest_free_period: 19
   disabled: false
@@ -47,8 +47,8 @@
   name: 广发银行信用卡
   color: red
   icon: credit card
-  statement_date: 19
-  payment_date: 8
+  statement_date: 7
+  payment_date: 27
   interest_free_period:
   disabled: false
 
@@ -56,8 +56,8 @@
   name: 交通银行信用卡
   color: blue
   icon: credit card
-  statement_date: 24
-  payment_date: 18
+  statement_date: 17
+  payment_date: 11
   interest_free_period:
   disabled: false
 

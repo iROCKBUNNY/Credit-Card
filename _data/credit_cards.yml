@@ -47,7 +47,7 @@
   name: 浦发银行信用卡
   color: blue
   icon: credit card
-  statement_date: 10
+  statement_date: 27
   payment_date:
   interest_free_period: 20
   disabled: false

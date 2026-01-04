@@ -64,7 +64,7 @@
 - id: jdbt
   name: 京东白条
   color: red
-  icon: credit card
+  icon: dog
   statement_date: 26
   payment_date:
   interest_free_period: 9

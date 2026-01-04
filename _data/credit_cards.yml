@@ -32,7 +32,7 @@
   statement_date: 12
   payment_date: 5
   interest_free_period:
-  disabled: true
+  disabled: false
 
 - id: bankcomm
   name: 交通银行信用卡

@@ -48,8 +48,8 @@
   color: blue
   icon: credit card
   statement_date: 27
-  payment_date:
-  interest_free_period: 20
+  payment_date: 15
+  interest_free_period:
   disabled: false
 
 - id: ant-credit-pay
